@@ -1,10 +1,10 @@
-import { TimberlineidahoPage } from './app.po';
+import { GpsidahoPage } from './app.po';
 
-describe('timberlineidaho App', function() {
-  let page: TimberlineidahoPage;
+describe('gpsidaho App', function() {
+  let page: GpsidahoPage;
 
   beforeEach(() => {
-    page = new TimberlineidahoPage();
+    page = new GpsidahoPage();
   });
 
   it('should display message saying app works', () => {

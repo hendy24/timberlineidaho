@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class TimberlineidahoPage {
+export class GpsidahoPage {
   navigateTo() {
     return browser.get('/');
   }

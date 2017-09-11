@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-md navbar-trans fixed-top navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href="#" class="navbar-brand"><img src="/public/images/timberline_realty_logo.png" alt=""></a>
+
+  <div class="login"><a routerLink="/login" class="btn btn-primary btn-sm" role="button">Login</a></div>
+  <div class="collapse navbar-collapse navbar-menu">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/current-properties" routerLinkActive="active" class="nav-link">Current Properties</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a routerLink="/about" routerLinkActive="active" class="nav-link">About</a>
+      </li> -->
+      <li class="nav-item">
+        <a routerLink="/blog" routerLinkActive="active" class="nav-link">Blog</a>
+      </li>
+    </ul>
+  </div>
+</nav>
